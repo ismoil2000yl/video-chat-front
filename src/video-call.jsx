@@ -15,7 +15,7 @@ import IconEndCall from './img/end-call.png'
 import IconEndedCall from './img/ended-call.png'
 
 
-const socket = io.connect('http://localhost:5000')
+const socket = io.connect('https://video-chat-backend-wxs2.onrender.com')
 
 const VideoCall = () => {
 
